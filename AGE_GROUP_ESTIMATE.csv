@@ -1,0 +1,8 @@
+"AgeGroup","Hospitalized","Count","Estimate","EstimateLow","EstimateHigh"
+Age 0-17,Hos,134,39,24,109
+Age 0-17,Non Hos,48525,12131,8734,16013
+Age 18-49,Hos,2640,1426,1162,1663
+Age 18-49,Non Hos,133654,45442,33414,61481
+Age 50+,Hos,7640,5501,4509,6418
+Age 50+,Non Hos,60642,27289,20012,36992
+Total,,253235,91828,67854,122676

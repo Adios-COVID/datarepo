@@ -1,0 +1,6 @@
+"GenderGroup","Hospitalized","Count","Estimate","EstimateLow","EstimateHigh"
+Male,Hos,4351,2350,1914,2741
+Male,Non Hos,116382,43061,29096,59355
+Female,Hos,2966,1602,1305,1869
+Female,Non Hos,126532,54409,44286,79715
+Total,,250231,101422,76601,143680
