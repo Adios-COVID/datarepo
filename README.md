@@ -1,5 +1,13 @@
 Data Repository for the Adios COVID Research Project
 =====
+
+## S3 Bucket Section
+
+
+## ERD Section
+
+
+
 ## Data
 * `AGE_GROUP_ESTIMATE.csv` contains the estimated number of Latinos population were affected by Long Covid for different age group. For the age group, we categorized the age group dataset into smaller subsets, mainly three categories: Under 18, 18 to 49, and 50+. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
 
@@ -13,5 +21,8 @@ Data Repository for the Adios COVID Research Project
 
 * `OCCUPATION_WA_NON_MSA.csv` contains data about the occupations of residents of nonmetropolitan area in Eastern Washington state and it was collected by the [U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_5300007.htm).
 
+## API SECTION
 
 ## Disclaimer
+
+## Contact Info
