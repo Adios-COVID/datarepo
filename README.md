@@ -22,7 +22,12 @@ Data Repository for the Adios COVID Research Project
 * `OCCUPATION_WA_NON_MSA.csv` contains data about the occupations of residents of nonmetropolitan area in Eastern Washington state and it was collected by the [U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_5300007.htm).
 
 ## API SECTION
+Our open-source research project offers APIs that provides access to our research data. The APIs are designed to be easy to use and flexible, allowing developers to query our data and integrate it into their own applications.
+To use our API, .............
 
 ## Disclaimer
+The data presented in the repository was collected from a variety of sources, including medical journals, public health organizations, and Government website. While we have made every effort to ensure the accuracy of the data, we cannot guarantee its completeness or accuracy.
 
-## Contact Info
+## Contact
+If you have any questions regarding our open-source research project, you can to reach out to us through [email](mailto:research@adioscovid.org).<br>
+**research@adioscovid.org**
