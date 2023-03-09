@@ -25,7 +25,31 @@ Data Repository for the Adios COVID Research Project
 Our open-source research project offers APIs that provides access to our research data. The APIs are designed to be easy to use and flexible, allowing developers to query our data and integrate it into their own applications.
 
 ### Base URL
-(https://rprwae53w2.execute-api.us-west-2.amazonaws.com/v-1/)
+https://rprwae53w2.execute-api.us-west-2.amazonaws.com/v-1/
+
+### Endpoints
+#### Age Group Estimate
+
+Returns the data for low end and high end estimate of COVID-19 hospitalizations by age group.
+
+URL: `/age-group-estimate`
+
+Method: `GET`
+
+Parameters: None
+
+Sample Response:
+
+```json
+{
+  "AgeGroup": "Age 0-17",
+  "Hospitalized": "Hos",
+  "Count": 134,
+  "Estimate": 39,
+  "EstimateLow": 24,
+  "EstimateHigh": 109
+}
+```
 
 ## Disclaimer
 The data presented in the repository was collected from a variety of sources, including medical journals, public health organizations, and Government website. While we have made every effort to ensure the accuracy of the data, we cannot guarantee its completeness or accuracy.
