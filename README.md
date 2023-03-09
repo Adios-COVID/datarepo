@@ -28,7 +28,7 @@ Our open-source research project offers APIs that provides access to our researc
 https://rprwae53w2.execute-api.us-west-2.amazonaws.com/v-1/
 
 ### Endpoints
-#### **Age Group Estimate**
+#### 1. **Age Group Estimate**
 
 Returns the data for low end and high end estimate of COVID-19 hospitalizations by age group.
 
@@ -51,7 +51,30 @@ Sample Response:
 }
 ```
 
-#### **Cases By County**
+#### 2. **Gender Group Estimate**
+
+Returns the data for low end and high end estimate of COVID-19 hospitalizations by age group.
+
+URL: `/gender-group-estimate`
+
+Method: `GET`
+
+Parameters: None
+
+Sample Response:
+
+```json
+{
+  "GenderGroup": "Male",
+  "Hospitalized": "Hos",
+  "Count": 4351,
+  "Estimate": 2350,
+  "EstimateLow": 1914,
+  "EstimateHigh": 2741
+}
+```
+
+#### 3. **Cases By County**
 
 Returns the data for total number of cases, confirmed cases, 7 day average, fourteen day case rate, etc. for a specified county.
 
@@ -88,6 +111,51 @@ Sample Response:
   "Pct_latino": null
 }
 ```
+
+#### 4. **Latino By County**
+
+Returns the data for total number of cases, confirmed cases, 7 day average, fourteen day case rate, etc. for a specified county.
+
+URL: `/latino-by-county`
+
+Method: `GET`
+
+Parameters:
+
+|Name|Type|Description|Required|
+|----|----|-----------|--------|
+|County|`String`|The name of the county.|Yes|
+
+Valid County Values:
+
+`Washington, Adams, Asotin, Benton, Chelan, Columbia, Douglas, Ferry, Franklin, Garfield, Grant, Kittitas, Klickitat, Lincoln, Okanogan, Pend Oreille, Spokane, Stevens, Walla Walla, Whitman, Yakima`
+
+Sample Response:
+
+```json
+{
+  "County": "Adams",
+  "total": 2958,
+  "Income_less_10000": 166,
+  "Income_10000_to_14999": 256,
+  "Income_15000_to_19999": 228,
+  "Income_20000_to_24999": 247,
+  "Income_25000_to_29999": 137,
+  "Income_30000_to_34999": 70,
+  "Income_35000_to_39999": 171,
+  "Income_40000_to_44999": 277,
+  "Income_45000_to_49999": 68,
+  "Income_50000_to_54999": 206,
+  "Income_55000_to_59999": 401,
+  "Income_60000_to_74999": 455,
+  "Income_75000_to_99999": 455,
+  "Income_100000_to_124999": 108,
+  "Income_125000_to_149999": 83,
+  "Income_150000_to_199999": 42,
+  "Income_200000_or_more": 43
+ }
+```
+
 
 ## Disclaimer
 The data presented in the repository was collected from a variety of sources, including medical journals, public health organizations, and Government website. While we have made every effort to ensure the accuracy of the data, we cannot guarantee its completeness or accuracy.
