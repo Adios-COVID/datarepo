@@ -28,7 +28,7 @@ Our open-source research project offers APIs that provides access to our researc
 https://rprwae53w2.execute-api.us-west-2.amazonaws.com/v-1/
 
 ### Endpoints
-#### Age Group Estimate
+#### **Age Group Estimate**
 
 Returns the data for low end and high end estimate of COVID-19 hospitalizations by age group.
 
@@ -48,6 +48,44 @@ Sample Response:
   "Estimate": 39,
   "EstimateLow": 24,
   "EstimateHigh": 109
+}
+```
+
+#### **Cases By County**
+
+Returns the data for total number of cases, confirmed cases, 7 day average, fourteen day case rate, etc. for a specified county.
+
+URL: `/cases-by-county`
+
+Method: `GET`
+
+Parameters:
+
+|Name|Type|Description|Required|
+|----|----|-----------|--------|
+|County|`String`|The name of the county.|Yes|
+
+Valid County Values:
+
+`Adams, Asotin, Benton, Better Health Together, Cascade Pacific Action Alliance, Chelan, Clallam, Clark, Columbia, Cowlitz, Douglas ,Elevate Health, Ferry
+Franklin, Garfield, Grant, Grays Harbor, Greater Columbia, Healthier Here, Island, Jefferson, King, Kitsap, Kittitas, Klickitat, Lewis, Lincoln, Mason, North Central, North Sound, Okanogan, Olympic Community of Health, Pacific, Pend Oreille, Pierce, San Juan, Skagit, Skamania, Snohomish, Southwest  Washington, Spokane, Stevens, Thurston, Unassigned, Unassigned ACH, Unassigned Region, Wahkiakum, Walla Walla, Western Washington, Whatcom, Whitman, Yakima`
+
+Sample Response:
+
+```json
+{
+  "EarliestSpecCollectDate": "King",
+  "County": "544594",
+  "TotalCases": "510263",
+  "ConfirmedCases": "34331",
+  "ProbableCases": "486.761708407",
+  "TotalCases_7DAvg": "3407.332737030",
+  "SevDayCaseCount": "150.713595706",
+  "SevDayCaseRate": "6805.925760286",
+  "FourteenDayCaseCount": "301.040429338",
+  "FourteenDayCaseRate": null,
+  "Pop_Estimate": null,
+  "Pct_latino": null
 }
 ```
 
