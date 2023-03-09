@@ -114,7 +114,7 @@ Sample Response:
 
 #### 4. **Latino By County**
 
-Returns the data for total number of cases, confirmed cases, 7 day average, fourteen day case rate, etc. for a specified county.
+Returns the data for Latinos by county including estimated population, household income, hosuehold size, and transportation statisitcs.
 
 URL: `/latino-by-county`
 
@@ -129,6 +129,89 @@ Parameters:
 Valid County Values:
 
 `Washington, Adams, Asotin, Benton, Chelan, Columbia, Douglas, Ferry, Franklin, Garfield, Grant, Kittitas, Klickitat, Lincoln, Okanogan, Pend Oreille, Spokane, Stevens, Walla Walla, Whitman, Yakima`
+
+Sample Response:
+
+```json
+{
+  "County": "Yakima",
+  "Pop_Estimate": 256035,
+  "pct_Latino": "0.5180",
+  "estimated_Latino_Pop": 132626,
+  "household_Total": 30542,
+  "family_households": 25731
+  "married_couple_family": 15350,
+  "other_family": 10381,
+  "male_householder_no_wife_present": 3384,
+  "female_householder_no_husband_present": 6997,
+  "nonfamily_households": 4811,
+  "householder_living_alone": 3678,
+  "householder_not_living_alone": 1133,
+  "income_total": 30542,
+  "income_less_10000": 1754,
+  "income_10000_to_14999": 1452,
+  "income_15000_to_19999": 1643,
+  "income_20000_to_24999": 2220,
+  "income_25000_to_29999": 1864,
+  "income_30000_to_34999": 2743,
+  "income_35000_to_39999": 2256,
+  "income_40000_to_44999": 2154,
+  "income_45000_to_49999": 1610,
+  "income_50000_to_54999": 2868,
+  "income_55000_to_59999": 3759,
+  "income_60000_to_74999": 3371,
+  "income_75000_to_99999": 3371,
+  "income_100000_to_124999": 1498,
+  "income_125000_to_149999": 635,
+  "income_150000_to_199999": 433,
+  "income_200000_or_more": 282,
+  "transportation_Total": 48157,
+  "drove_alone": 36103,
+  "carpooled": 8904,
+  "public_transportation": 220,
+  "walked": 797,
+  "other_transportation": 716,
+  "worked_at_home": 1417
+}
+```
+
+#### 5. **Physicians By County**
+
+Returns the data for Accountability Community of Health(ACH) and number of physicians by county.
+
+URL: `/physicians-by-county`
+
+Method: `GET`
+
+Parameters:
+
+|Name|Type|Description|Required|
+|----|----|-----------|--------|
+|County|`String`|The name of the county.|Yes|
+
+Valid County Values:
+
+`Adams, Asotin, Benton, Chelan, Clallam, Clark, Columbia, Cowlitz, Douglas, Ferry, Franklin, Garfield, Grant, Grays Harbor, Island, Jefferson, King, Kitsap, Kittitas, Klickitat, Lewis, Lincoln, Mason, Okanogan, Pacific, Pend Oreille, Pierce, San Juan, Skagit, Skamania, Snohomish, Spokane, Stevens, Thurston, Wahkiakum, Walla Walla, Whatcom, Whitman, Yakima`
+
+Sample Response:
+
+```json
+{
+  "County": "King",
+  "ACH": " King County ACH",
+  "Total_Physicians": 8806
+}
+```
+
+#### 6. **Latino Income**
+
+Returns the data for houshold income brackets by county for Latinos in Washington.
+
+URL: `/latino-income`
+
+Method: `GET`
+
+Parameters: None
 
 Sample Response:
 
@@ -153,10 +236,29 @@ Sample Response:
   "Income_125000_to_149999": 83,
   "Income_150000_to_199999": 42,
   "Income_200000_or_more": 43
- }
+}
 ```
 
+#### 7. **Latino Population**
 
+Returns data for estimate total populations, latino population, and percentage of latinos for each county in Washington.
+
+URL: `/latino-population`
+
+Method: `GET`
+
+Parameters: None
+
+Sample Response:
+
+```json
+{
+  "County": "Okanogan",
+  "Pop_Estimate": 42634,
+  "Pct_Latino": "0.2130",
+  "Estimated_Latino_Pop": 9081
+}
+```
 ## Disclaimer
 The data presented in the repository was collected from a variety of sources, including medical journals, public health organizations, and Government website. While we have made every effort to ensure the accuracy of the data, we cannot guarantee its completeness or accuracy.
 
