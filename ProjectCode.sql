@@ -155,34 +155,6 @@ CREATE TABLE CENSUS_CLEANED_TEMP (
 )
 
 /*
-create EWAINCOME_CLEANED_TEMP
-	import: yes
-	final: no
-	endpoint: no
-NOTE: CHECKING IF THIS TABLE SHOULD BE INCLUDED
-*/
-CREATE TABLE EWAINCOME_CLEANED_TEMP (
-	County varchar(100),
-	Total varchar(100),
-	Less_10000 varchar(100),
-	BTWN_10000_14999 varchar(100),
-	BTWN_15000_19999 varchar(100),
-	BTWN_20000_24999 varchar(100),
-	BTWN_25000_29999 varchar(100),
-	BTWN_30000_34999 varchar(100),
-	BTWN_35000_39999 varchar(100),
-	BTWN_40000_44999 varchar(100),
-	BTWN_45000_49999 varchar(100),
-	BTWN_50000_59999 varchar(100),
-	BTWN_60000_74999 varchar(100),
-	BTWN_75000_99999 varchar(100),
-	BTWN_100000_124999 varchar(100),
-	BTWN_125000_149999 varchar(100),
-	BTWN_150000_199999 varchar(100),
-	More_200000 varchar(100)
-)
-
-/*
 create AGE_GROUP_ESTIMATE
 	import: yes
 	final: yes
@@ -225,13 +197,12 @@ CREATE TABLE PHYSICIANS_WA_TEMP (
 )
 
 /*
-create table LATINO_INCOME_CLEANED
+create table LATINO_INCOME_CLEANED_TEMP
 	import: yes
 	final: no
 	endpoint: no
-NOTE: CHECKING IF THIS TABLE SHOULD BE INCLUDED OR RENAMED
 */
-CREATE TABLE LATINO_INCOME_CLEANED (
+CREATE TABLE LATINO_INCOME_CLEANED_TEMP (
   County VARCHAR(255),
   Total INT,
   Income_less_10000 INT,
@@ -297,8 +268,7 @@ create LATINO_DATA view, which combines several tables containing County-level d
 	import: no
 	final: no
 	endpoint: no
-NOTE: CHECKING IF THIS VIEW SHOULD BE INCLUDED OR IF IT CAN BE DELETED
- */
+*/
 CREATE VIEW LATINO_DATA AS
 SELECT 
 	lhct.County 
@@ -337,7 +307,7 @@ SELECT
 	,lwtct.other_transportation 
 	,lwtct.worked_at_home 
 FROM LATINO_HOUSEHOLD_CLEANED_TEMP lhct 
-	JOIN LATINO_INCOME_CLEANED lic ON lhct.County = lic.County 
+	JOIN LATINO_INCOME_CLEANED_TEMP lic ON lhct.County = lic.County 
 	JOIN LATINO_WORK_TRANSPORT_CLEANED_TEMP lwtct ON lhct.County = lwtct.county 
 	
 	
@@ -346,7 +316,7 @@ create COUNTY_LATINO_DATA view, which combines several tables containing County-
 	import: no
 	final: yes
 	endpoint: yes
- */
+*/
 CREATE VIEW COUNTY_LATINO_DATA AS(
 	
 	SELECT 
