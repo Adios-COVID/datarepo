@@ -242,7 +242,7 @@ Sample Response:
 
 #### 7. **Latino Population**
 
-Returns data for estimate total populations, latino population, and percentage of latinos for each county in Washington.
+Returns data for total population estimate, Latino population, and percentage of Latinos for each county in Washington.
 
 URL: `/latino-population`
 
