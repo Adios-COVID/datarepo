@@ -4,9 +4,6 @@ Data Repository for the Adios COVID Research Project
 ## S3 Bucket Section
 
 
-## ERD Section
-
-
 ## Data
 * `AGE_GROUP_ESTIMATE.csv` contains the estimated number of Latinos in Washington state who were affected by Long Covid; grouped by age ranges. The age ranges are: Under 18, 18 to 49, and 50+. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
 
@@ -261,8 +258,10 @@ Sample Response:
 }
 ```
 ## Disclaimer
-The data presented in the repository was collected from a variety of sources, including medical journals, public health organizations, and Government website. While we have made every effort to ensure the accuracy of the data, we cannot guarantee its completeness or accuracy.
+The data presented in the repository was collected from a variety of sources, including medical journals, public health organizations, and government websites. While we have made every effort to ensure the accuracy of the data, we cannot guarantee its completeness or accuracy.
 
 ## Contact
+If you have any questions regarding our open-source research system, you can to reach out to us through email.
+research@adioscovid.org
 If you have any questions regarding our open-source research project, you can to reach out to us through [email](mailto:research@adioscovid.org).<br>
 **research@adioscovid.org**
