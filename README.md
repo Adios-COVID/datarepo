@@ -206,7 +206,7 @@ Sample Response:
 
 #### 6. **Latino Income**
 
-Returns the data for houshold income brackets by county for Latinos in Washington.
+Returns the data for household income brackets by county for Latinos in Washington.
 
 URL: `/latino-income`
 
