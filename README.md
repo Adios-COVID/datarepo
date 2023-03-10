@@ -14,7 +14,7 @@ Data Repository for the Adios COVID Research Project
 
 * `GOV_TRUST.csv` contains Public Trust in Government from 1958-2022 for different party, race and ethnicity groups. The data was collected by the [Pew Research Center](https://www.pewresearch.org/politics/2022/06/06/public-trust-in-government-1958-2022/).
 
-* `HEATHCARE_METRICS.csv` contains hospital admission rates for Washington State over time. It contains these date ranges: 7-day admission count, 7-day admission rate per 100,000; and the population at the time of the date range. There are 858 rows of data. This data should be representative of the hospital admission rates for Washington in the given time frame. The data is compiled by the [Washington State Department of Health](https://doh.wa.gov/emergencies/covid-19/data-dashboard#tables), who have primary access to these figures from the hospitals themselves.
+* `HEATHCARE_METRICS.csv` contains hospital admission rates for Washington State over time. It contains these date ranges: 7-day admission count, 7-day admission rate per 100,000; and the population at the time of the date range. This data should be representative of the hospital admission rates for Washington in the given time frame. The data is compiled by the [Washington State Department of Health](https://doh.wa.gov/emergencies/covid-19/data-dashboard#tables), who have primary access to these figures from the hospitals themselves.
 
 * `OCCUPATION_WA_MSA.csv` contains data about the occupations of residents of metropolitan areas in Eastern Washington state. It was collected by the [U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_5300007.htm). This data should be representative of the prevalence of various occupations in Eastern Washington.
 
