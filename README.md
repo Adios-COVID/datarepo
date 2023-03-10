@@ -21,7 +21,7 @@ Data Repository for the Adios COVID Research Project
 
 * `OCCUPATION_WA_NON_MSA.csv` contains data about the occupations of residents of nonmetropolitan area in Eastern Washington state and it was collected by the [U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_5300007.htm).
 
-* `PHYSICIANS_WA.csv` contains data about the number of physicians in Eastern Washington counties and it was collected by the [Washington Office of Financial Management Health Care Research Center] (https://ofm.wa.gov/sites/default/files/public/dataresearch/healthcare/workforce/physician_supply_2019-20.pdf).
+* `PHYSICIANS_WA.csv` contains data about the number of physicians in Eastern Washington counties and it was collected by the [Washington Office of Financial Management Health Care Research Center](https://ofm.wa.gov/sites/default/files/public/dataresearch/healthcare/workforce/physician_supply_2019-20.pdf).
 
 ## API SECTION
 Our open-source research project offers APIs that provides access to our research data. The APIs are designed to be easy to use and flexible, allowing developers to query our data and integrate it into their own applications.
