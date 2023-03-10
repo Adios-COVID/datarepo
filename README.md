@@ -7,21 +7,20 @@ Data Repository for the Adios COVID Research Project
 ## ERD Section
 
 
-
 ## Data
-* `AGE_GROUP_ESTIMATE.csv` contains the estimated number of Latinos population were affected by Long Covid for different age group. For the age group, we categorized the age group dataset into smaller subsets, mainly three categories: Under 18, 18 to 49, and 50+. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
+* `AGE_GROUP_ESTIMATE.csv` AGE_GROUP_ESTIMATE.csv contains the estimated number of Latinos in Washington state who were affected by Long Covid; grouped by age ranges. The age ranges are: Under 18, 18 to 49, and 50+. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
 
-* `GENDER_GROUP_ESTIMATE.csv`contains the estimated number of Latinos population were affected by Long Covid for different gender group. For the gender group, we categorized them into male and female group. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
+* `GENDER_GROUP_ESTIMATE.csv`GENDER_GROUP_ESTIMATE.csv contains the estimated number of Latinos in Washington state affected by Long Covid; grouped by gender. The gender groups were categorized into male and female. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
 
-* `GOV_TRUST.csv` contains Public Trust in Government from 1958-2022 for different party,race and ethnicity groups and the data was collected by [Pew Research Center](https://www.pewresearch.org/politics/2022/06/06/public-trust-in-government-1958-2022/).
+* `GOV_TRUST.csv` contains Public Trust in Government from 1958-2022 for different party, race and ethnicity groups. The data was collected by the [Pew Research Center](https://www.pewresearch.org/politics/2022/06/06/public-trust-in-government-1958-2022/).
 
-* `HEATHCARE_METRICS.csv` contains hospital admission rates for Washington State over time. It contains a date range, 7-day admission count, 7-day admission rate per 100,000, and the population at the time of the date range. There are 858 rows of data. This data should be representative of the hospital admission rates for Washington in the given time frame. The data is compiled by the [Washington State Department of Health](https://doh.wa.gov/emergencies/covid-19/data-dashboard#tables), who have primary access to these figures from the hospitals themselves.
+* `HEATHCARE_METRICS.csv` contains hospital admission rates for Washington State over time. It contains these date ranges: 7-day admission count, 7-day admission rate per 100,000; and the population at the time of the date range. There are 858 rows of data. This data should be representative of the hospital admission rates for Washington in the given time frame. The data is compiled by the [Washington State Department of Health](https://doh.wa.gov/emergencies/covid-19/data-dashboard#tables), who have primary access to these figures from the hospitals themselves.
 
-* `OCCUPATION_WA_MSA.csv` contains data about the occupations of residents of metropolitan area in Eastern Washington state and it was collected by the [U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_5300007.htm). This data should be representative of the prevalence of various occupations in Eastern Washington.
+* `OCCUPATION_WA_MSA.csv` contains data about the occupations of residents of metropolitan areas in Eastern Washington state. It was collected by the [U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_5300007.htm). This data should be representative of the prevalence of various occupations in Eastern Washington.
 
-* `OCCUPATION_WA_NON_MSA.csv` contains data about the occupations of residents of nonmetropolitan area in Eastern Washington state and it was collected by the [U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_5300007.htm).
+* `OCCUPATION_WA_NON_MSA.csv` contains data about the occupations of residents of non-metropolitan areas in Eastern Washington state. It was collected by the [U.S. Bureau of Labor Statistics](https://www.bls.gov/oes/current/oes_5300007.htm).
 
-* `PHYSICIANS_WA.csv` contains data about the number of physicians in Eastern Washington counties and it was collected by the [Washington Office of Financial Management Health Care Research Center](https://ofm.wa.gov/sites/default/files/public/dataresearch/healthcare/workforce/physician_supply_2019-20.pdf).
+* `PHYSICIANS_WA.csv` contains data about the number of physicians in Eastern Washington counties. It was collected by the [Washington Office of Financial Management Health Care Research Center](https://ofm.wa.gov/sites/default/files/public/dataresearch/healthcare/workforce/physician_supply_2019-20.pdf).
 
 ## API SECTION
 Our open-source research project offers APIs that provides access to our research data. The APIs are designed to be easy to use and flexible, allowing developers to query our data and integrate it into their own applications.
@@ -116,7 +115,7 @@ Sample Response:
 
 #### 4. **Latino By County**
 
-Returns the data for Latinos by county including estimated population, household income, hosuehold size, and transportation statisitcs.
+Returns the data for Latinos by county including estimated population, household income, household size, and transportation statisitcs.
 
 URL: `/latino-by-county`
 
