@@ -5,9 +5,9 @@ Data Repository for the Adios COVID Research Project
 
 
 ## Data
-* `AGE_GROUP_ESTIMATE.csv` contains the estimated number of Latinos in Washington state who were affected by Long Covid; grouped by age ranges. The age ranges are: Under 18, 18 to 49, and 50+. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
+* `AGE_GROUP_ESTIMATE.csv` contains the estimated number of Latinos in Washington state who were affected by Long COVID; grouped by age ranges. The age ranges are: Under 18, 18 to 49, and 50+. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
 
-* `GENDER_GROUP_ESTIMATE.csv` contains the estimated number of Latinos in Washington state affected by Long Covid; grouped by gender. The gender groups were categorized into male and female. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
+* `GENDER_GROUP_ESTIMATE.csv` contains the estimated number of Latinos in Washington state affected by Long COVID; grouped by gender. The gender groups were categorized into male and female. We used two datasets obtained from the [Washington state COVID-19 Data Dashboard](https://doh.wa.gov/emergencies/covid-19/data-dashboard#CurrentStatus) for the estimation.
 
 * `GOV_TRUST.csv` contains Public Trust in Government from 1958-2022 for different party, race and ethnicity groups. The data was collected by the [Pew Research Center](https://www.pewresearch.org/politics/2022/06/06/public-trust-in-government-1958-2022/).
 
