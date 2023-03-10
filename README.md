@@ -261,6 +261,4 @@ Sample Response:
 The data presented in the repository was collected from a variety of sources, including medical journals, public health organizations, and government websites. While we have made every effort to ensure the accuracy of the data, we cannot guarantee its completeness or accuracy.
 
 ## Contact
-If you have any questions regarding our open-source research system, you can to reach out to us through email.
-research@adioscovid.org
-If you have any questions regarding our open-source research project, you can to reach out to us through email at: [research@adioscovid.org](mailto:research@adioscovid.org).
+If you have any questions regarding our open-source research system, you can to reach out to us through email at: [research@adioscovid.org](mailto:research@adioscovid.org).
