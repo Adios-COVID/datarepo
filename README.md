@@ -23,7 +23,7 @@ Data Repository for the Adios COVID Research Project
 * `PHYSICIANS_WA.csv` contains data about the number of physicians in Eastern Washington counties. It was collected by the [Washington Office of Financial Management Health Care Research Center](https://ofm.wa.gov/sites/default/files/public/dataresearch/healthcare/workforce/physician_supply_2019-20.pdf).
 
 ## API SECTION
-Our open-source research project offers APIs that provides access to our research data. The APIs are designed to be easy to use and flexible, allowing developers to query our data and integrate it into their own applications.
+Our open-source research system offers APIs that provides access to our quantitative research data. The APIs are designed to be easy to use and flexible, allowing researchers to query our data and integrate it into their own applications for further analysis.
 
 ### Base URL
 https://rprwae53w2.execute-api.us-west-2.amazonaws.com/v-1/
